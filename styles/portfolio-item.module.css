@@ -37,8 +37,18 @@
   color: #fff;
   background: #808dad68;
   font-size: 0.7rem;
-  margin-right: 10px;
+  margin-right: 2px;
+
   border-radius: 5px;
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .portfolio__keyword {
+    margin-left: -5px;
+    /*padding-left: -3px;
+    padding-right: -3px;
+    margin-right: -5px; */
+    font-size: 0.6rem;
+  }
 }
 
 .portfolio__live {
