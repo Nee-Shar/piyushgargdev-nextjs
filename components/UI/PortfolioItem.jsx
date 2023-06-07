@@ -43,7 +43,7 @@ const PortfolioItem = (props) => {
               }}
             >
               {keyword.map((item, index) => (
-                <span className={`${classes.portfolio__keyword}`} key={index}>
+                <span className={`${classes.portfolio__keyword}`} key={index} >
                   {item}
                 </span>
               ))}

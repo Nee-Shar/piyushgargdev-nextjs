@@ -20,9 +20,9 @@ const Courses = ({ courses = [] }) => {
             <Col
               style={{ margin: "10px 0px" }}
               key={item.id}
-              lg="4"
-              md="4"
-              sm="6"
+              lg="5"
+              md="6"
+              sm="7"
             >
               <PortfolioItem item={item} />
             </Col>
